@@ -58,11 +58,11 @@ Modify any YAML in `configs/` to change dataset, LLM name, learning rate, epochs
 ## 5. Directory Layout  
 
 AutoTimes_project/
-├── autotimes/          # model, data loader, trainer, utils
-├── configs/            # YAML configs (etth1, lora, weather)
-├── scripts/run_all.sh  # one‑click reproducibility script
-├── src/                # experiment entry, result aggregation, plotting
-├── data/readme_data.txt# download instruction
+├── autotimes/           # model, data loader, trainer, utils
+├── configs/             # YAML configs (etth1, lora, weather)
+├── scripts/run_all.sh   # one‑click reproducibility script
+├── src/                 # experiment entry, result aggregation, plotting
+├── data/readme_data.txt # download instruction
 ├── requirements.txt
-└── checkpoints/        # saved weights + result.txt (auto‑generated)
+└── checkpoints/         # saved weights + result.txt (auto‑generated)
 
