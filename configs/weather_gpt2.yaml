@@ -1,0 +1,20 @@
+seed: 123
+seg_len: 96
+llm:
+  name: gpt2
+  lora: false
+mix_var: true
+
+data:
+  name: Weather
+  path: data/weather.csv
+  win_seg: 10
+  batch: 16
+  num_workers: 4
+  seg_len: 96
+  llm_name: gpt2
+
+train:
+  epochs: 8
+  lr: 0.001
+  save_dir: checkpoints/weather_gpt2

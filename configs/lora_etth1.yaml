@@ -1,0 +1,8 @@
+inherit: etth1_gpt2.yaml
+llm:
+  name: gpt2
+  lora: true
+  lora_rank: 8
+  lora_alpha: 16
+train:
+  save_dir: checkpoints/etth1_lora

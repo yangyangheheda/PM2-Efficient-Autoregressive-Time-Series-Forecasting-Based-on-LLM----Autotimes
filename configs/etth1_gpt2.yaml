@@ -1,0 +1,19 @@
+seed: 42
+seg_len: 96
+llm:
+  name: gpt2
+  lora: false
+
+data:
+  name: ETTh1
+  path: data/ETTh1.csv
+  win_seg: 10
+  batch: 32
+  num_workers: 4
+  seg_len: 96
+  llm_name: gpt2
+
+train:
+  epochs: 10
+  lr: 0.001
+  save_dir: checkpoints/etth1_gpt2
